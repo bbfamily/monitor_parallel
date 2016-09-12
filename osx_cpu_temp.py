@@ -6,7 +6,6 @@ import logging
 g_this_file = os.path.realpath(__file__)
 g_this_folder = os.path.dirname(g_this_file)
 
-
 def get_cpu_temp():
     cmd = g_this_folder + '/osx-cpu-temp-master/osx-cpu-temp'
 
