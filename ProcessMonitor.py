@@ -33,8 +33,9 @@ __author__ = 'BBFamily'
 K_DEFAULT_CT_WORK_PERIOD = 58 * 80  # 默认子进程最长工作时间
 K_DEFAULT_REST_PERIOD = 58 * 12  # 默认子进程挂起休息时间
 
-K_CMD_PNAME = 'data/p_cmd'
-K_CMD_SOCKET_PNAME = 'data/p_cmd_socket'
+
+K_CMD_PNAME = os.path.expanduser('~') + '/monitor_parallel/p_cmd'
+K_CMD_SOCKET_PNAME = os.path.expanduser('~') + '/monitor_parallel/p_cmd_socket'
 K_CMD_PCMD = 'p_cmd'
 K_CMD_PCMD_ADD_HEAD = 'add_pid'
 

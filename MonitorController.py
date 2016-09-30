@@ -28,7 +28,7 @@ if g_enable_cpu_monitor:
     """
         conda的chaco会导致问题如果是conda环境就不要开了
     """
-    from chaco.api import Plot, ArrayPlotData
+    from chaco import Plot, ArrayPlotData
     import CpuHelper
 
 

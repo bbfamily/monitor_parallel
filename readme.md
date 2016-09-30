@@ -6,7 +6,7 @@
 
 ＊ 父进程已经停止，统一关闭管理所有子进程，kill所有子进程
 
-
+＊ 修改monitor_parallel.pth为你的位置，放入**lib/python2.7/site-packages库中方便随时使用
 
 控制mul process挂起及恢复
 避免长时间任务连续占据cpu，通过监控
